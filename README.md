@@ -8,4 +8,13 @@ The object storage service Amazon Simple Storage Service (Amazon S3) provides pe
 ![advantages-of-aws-s3](https://github.com/shreyajaiswal04/Static-Website-hosting-on-AWS-using-s3/assets/120746269/eb7d6a91-8905-40a9-9463-ee3638e5b6a0)
 
 # Steps to host a static website using Amazon S3.
-1-
+1-Go to AWS Management Console . From services select S3.
+2-Select Buckets and click on 'Create Bucket'.
+3-Select region. And give a name must be unique and shouldn't contain uppercase alphabets.
+4-Grant public access by unchecking the option.
+5-Click on 'Create Bucket'
+6-Now click on the 'Bucket name' and from objects click on upload to upload theb files.
+7-Upload the file.I uploaded HTML file with an image.
+8-Go to properties ans enable the static website hosting option
+9-A link will be visible now.Click on that to launch a website.
+
