@@ -53,6 +53,7 @@ The above image showa the launched website.
 }
 # Benefits:
 1- Scalability and availability.
+
 2- Encryption of data in transit.
 
 # Conclusion
