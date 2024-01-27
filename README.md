@@ -16,5 +16,47 @@ The object storage service Amazon Simple Storage Service (Amazon S3) provides pe
 6-Now click on the 'Bucket name' and from objects click on upload to upload theb files.
 7-Upload the file.I uploaded HTML file with an image.
 8-Go to properties ans enable the static website hosting option
-9-A link will be visible now.Click on that to launch a website.
+9-Go to permission and write the required code in Bucket Policy.
+10-A link will be visible now.Click on that to launch a website.
+![project_result](https://github.com/shreyajaiswal04/Static-Website-hosting-on-AWS-using-s3/assets/120746269/e709cbe7-6d5f-44b6-94d3-7ab54acdc79d)
+
+The above image showa the launched website.
+# Codes Used:
+1-HTML file.
+<html>
+<head>
+	<title>My First Website</title>
+</head>
+<body>
+	<h1>Hello World!</h1>
+	<p>I'm hosted on Amazon S3!</p>
+	<img src="aws_image.png">
+</body>
+</html>
+
+2-Bucket Policy code.
+{
+    "Version": "2012-10-17",
+    "Statement": [
+    	{
+        	"Sid": "PublicReadGetObject",
+        	"Effect": "Allow",
+        	"Principal": "*",
+        	"Action": [
+            	"s3:GetObject"
+        	],
+        	"Resource": [
+                "arn:aws:s3:::myfirstprojectbucketgit/*"
+        	]
+    	}
+    ]
+}
+# Benefits:
+1- Scalability and availability.
+2- Encryption of data in transit.
+
+# Conclusion
+Static webpages can be hosted on Amazon Simple Storage Service (Amazon S3) without a web server. The website costs a fraction of what a conventional web server would at a far higher performance and scalability. Amazon S3 is cloud storage that offers safe, robust, and extremely scalable object storage. You may save and retrieve any volume of data from any location on the internet with a straightforward web services interface.
+
+
 
