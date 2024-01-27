@@ -35,22 +35,7 @@ The above image showa the launched website.
 </html>
 
 2-Bucket Policy code.
-{
-    "Version": "2012-10-17",
-    "Statement": [
-    	{
-        	"Sid": "PublicReadGetObject",
-        	"Effect": "Allow",
-        	"Principal": "*",
-        	"Action": [
-            	"s3:GetObject"
-        	],
-        	"Resource": [
-                "arn:aws:s3:::myfirstprojectbucketgit/*"
-        	]
-    	}
-    ]
-}
+
 # Benefits:
 1- Scalability and availability.
 
