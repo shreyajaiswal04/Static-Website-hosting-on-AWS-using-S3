@@ -23,9 +23,11 @@ The object storage service Amazon Simple Storage Service (Amazon S3) provides pe
 The above image showa the launched website.
 # Codes Used:
 1-HTML file.
+
 ![Screenshot (3542)](https://github.com/shreyajaiswal04/Static-Website-hosting-on-AWS-using-s3/assets/120746269/b68ded57-479d-4f58-bfde-5accfb2d82ba)
 
 2-Bucket Policy code.
+
 ![Screenshot (3541)](https://github.com/shreyajaiswal04/Static-Website-hosting-on-AWS-using-s3/assets/120746269/2c0564bc-5ea7-4a0b-b3c0-c7981f0f572e)
 
 
