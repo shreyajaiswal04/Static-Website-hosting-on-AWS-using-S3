@@ -1,5 +1,5 @@
 # Static-Website-hosting-on-AWS-using-S3
-Hello Everyone. In this first project of mine I have tried this simple project of hosting a static website using AWS. It involves the usage of Amazon Simple Storage Service (Amazon S3).
+Hello Everyone. In this first project of mine I have tried this simple task of hosting a static website using AWS. It involves the usage of Amazon Simple Storage Service (Amazon S3).
 # What is a Static Website?
 A static website is one that appears in a web browser precisely as it is stored. It is often referred to as a flat or motionless page. It consists of HTML-coded web pages with static content that are kept on a web server. It remains constant, unchanging, or "static" for each and every website visitor.
 # What is Amazon Simple Storage Service (Amazon S3)?
