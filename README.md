@@ -16,7 +16,7 @@ The object storage service Amazon Simple Storage Service (Amazon S3) provides pe
 
 4-Grant public access by unchecking the option.
 
-5-Click on 'Create Bucket'
+5-Click on 'Create Bucket'.
 
 6-Now click on the 'Bucket name' and from objects click on upload to upload theb files.
 
